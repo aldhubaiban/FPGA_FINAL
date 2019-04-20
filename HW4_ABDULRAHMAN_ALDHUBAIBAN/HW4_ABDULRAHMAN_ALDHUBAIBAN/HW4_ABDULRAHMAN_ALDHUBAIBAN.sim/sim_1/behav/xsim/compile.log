@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/aldhubaiban/Desktop/HW4_ABDULRAHMAN_ALDHUBAIBAN/HW4_ABDULRAHMAN_ALDHUBAIBAN.srcs/sources_1/new/div.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity div
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/aldhubaiban/Desktop/HW4_ABDULRAHMAN_ALDHUBAIBAN/HW4_ABDULRAHMAN_ALDHUBAIBAN.srcs/sources_1/new/division.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity part2_HW4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/aldhubaiban/Desktop/HW4_ABDULRAHMAN_ALDHUBAIBAN/HW4_ABDULRAHMAN_ALDHUBAIBAN.srcs/sources_1/new/div_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity testbench

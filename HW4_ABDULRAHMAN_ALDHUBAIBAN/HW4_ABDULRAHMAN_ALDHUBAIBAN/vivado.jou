@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Feb 14 05:52:10 2019
+# Process ID: 6016
+# Current directory: C:/Users/aldhubaiban/Desktop/HW4_ABDULRAHMAN_ALDHUBAIBAN
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4788 C:\Users\aldhubaiban\Desktop\HW4_ABDULRAHMAN_ALDHUBAIBAN\HW4_ABDULRAHMAN_ALDHUBAIBAN.xpr
+# Log file: C:/Users/aldhubaiban/Desktop/HW4_ABDULRAHMAN_ALDHUBAIBAN/vivado.log
+# Journal file: C:/Users/aldhubaiban/Desktop/HW4_ABDULRAHMAN_ALDHUBAIBAN\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/aldhubaiban/Desktop/HW4_ABDULRAHMAN_ALDHUBAIBAN/HW4_ABDULRAHMAN_ALDHUBAIBAN.xpr
+update_compile_order -fileset sources_1

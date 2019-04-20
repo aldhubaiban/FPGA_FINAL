@@ -1,0 +1,424 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Feb 14 05:20:54 2019
+# Process ID: 3300
+# Current directory: C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.runs/synth_1
+# Command line: vivado.exe -log testbench.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source testbench.tcl
+# Log file: C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.runs/synth_1/testbench.vds
+# Journal file: C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source testbench.tcl -notrace
+Command: synth_design -top testbench -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 260 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 372.520 ; gain = 97.922
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'testbench' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/div_tb.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'part2_HW4' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:48]
+	Parameter W bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'div' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/div.vhd:48]
+	Parameter W bound to: 8 - type: integer 
+	Parameter CBIT bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'div' (1#1) [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/div.vhd:48]
+WARNING: [Synth 8-614] signal 'reset' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+WARNING: [Synth 8-614] signal 'master_state' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+WARNING: [Synth 8-614] signal 'slav_state' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+WARNING: [Synth 8-614] signal 'divend_num' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+WARNING: [Synth 8-614] signal 'dvisor_num' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+WARNING: [Synth 8-614] signal 'rmd_main' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+WARNING: [Synth 8-614] signal 'quo_main' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+WARNING: [Synth 8-614] signal 'check_rmd' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+WARNING: [Synth 8-614] signal 'check1' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+WARNING: [Synth 8-614] signal 'check_quo' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+WARNING: [Synth 8-614] signal 'check2' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+WARNING: [Synth 8-614] signal 'dividend' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+WARNING: [Synth 8-614] signal 'divisor' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+WARNING: [Synth 8-614] signal 'done_tick_main' is read in the process but is not in the sensitivity list [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'part2_HW4' (2#1) [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:48]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/div_tb.vhd:63]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/div_tb.vhd:73]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/div_tb.vhd:82]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/div_tb.vhd:86]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/div_tb.vhd:92]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/div_tb.vhd:98]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/div_tb.vhd:104]
+INFO: [Synth 8-256] done synthesizing module 'testbench' (3#1) [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/div_tb.vhd:40]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 427.613 ; gain = 153.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 427.613 ; gain = 153.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 427.613 ; gain = 153.016
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'div'
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "done_tick" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ready" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                      op |                               01 |                               01
+                    last |                               10 |                               10
+                    done |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'div'
+WARNING: [Synth 8-327] inferring latch for variable 'equal_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:102]
+WARNING: [Synth 8-327] inferring latch for variable 'quotient_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:94]
+WARNING: [Synth 8-327] inferring latch for variable 'reminder_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:93]
+WARNING: [Synth 8-327] inferring latch for variable 'check2_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:110]
+WARNING: [Synth 8-327] inferring latch for variable 'check_quo_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:106]
+WARNING: [Synth 8-327] inferring latch for variable 'check1_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:109]
+WARNING: [Synth 8-327] inferring latch for variable 'check_rmd_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:107]
+WARNING: [Synth 8-327] inferring latch for variable 'slav_state_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:92]
+WARNING: [Synth 8-327] inferring latch for variable 'master_state_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:91]
+WARNING: [Synth 8-327] inferring latch for variable 'dvisor_num_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:106]
+WARNING: [Synth 8-327] inferring latch for variable 'divend_num_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:106]
+WARNING: [Synth 8-327] inferring latch for variable 'start_main_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:76]
+WARNING: [Synth 8-327] inferring latch for variable 'dvsor_main_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:77]
+WARNING: [Synth 8-327] inferring latch for variable 'dvnd_main_reg' [C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.srcs/sources_1/new/division.vhd:78]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 427.613 ; gain = 153.016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     31 Bit       Adders := 2     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 11    
+	   4 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module div 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 6     
+Module part2_HW4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     31 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3332] Sequential element (d_reg_reg[7]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (d_reg_reg[6]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (d_reg_reg[5]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (d_reg_reg[4]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (d_reg_reg[3]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (d_reg_reg[2]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (d_reg_reg[1]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (d_reg_reg[0]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rl_reg_reg[7]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rl_reg_reg[6]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rl_reg_reg[5]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rl_reg_reg[4]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rl_reg_reg[3]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rl_reg_reg[2]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rl_reg_reg[1]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rl_reg_reg[0]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rh_reg_reg[7]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rh_reg_reg[6]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rh_reg_reg[5]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rh_reg_reg[4]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rh_reg_reg[3]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rh_reg_reg[2]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rh_reg_reg[1]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (rh_reg_reg[0]) is unused and will be removed from module div.
+WARNING: [Synth 8-3332] Sequential element (equal_reg) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (quotient_reg[7]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (quotient_reg[6]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (quotient_reg[5]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (quotient_reg[4]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (quotient_reg[3]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (quotient_reg[2]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (quotient_reg[1]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (quotient_reg[0]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (reminder_reg[7]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (reminder_reg[6]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (reminder_reg[5]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (reminder_reg[4]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (reminder_reg[3]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (reminder_reg[2]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (reminder_reg[1]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (reminder_reg[0]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[31]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[30]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[29]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[28]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[27]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[26]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[25]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[24]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[23]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[22]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[21]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[20]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[19]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[18]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[17]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[16]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[15]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[14]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[13]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[12]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[11]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[10]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[9]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[8]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[7]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[6]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[5]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[4]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[3]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[2]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[1]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check2_reg[0]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[31]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[30]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[29]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[28]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[27]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[26]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[25]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[24]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[23]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[22]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[21]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[20]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[19]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[18]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[17]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[16]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[15]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[14]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[13]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[12]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[11]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[10]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[9]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[8]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[7]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[6]) is unused and will be removed from module part2_HW4.
+WARNING: [Synth 8-3332] Sequential element (check_quo_reg[5]) is unused and will be removed from module part2_HW4.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 566.508 ; gain = 291.910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 566.508 ; gain = 291.910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 566.508 ; gain = 291.910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 566.508 ; gain = 291.910
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 566.508 ; gain = 291.910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-115] binding instance 'i_0' in module 'testbench' to reference 'part2_HW4' which has no pins
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 566.508 ; gain = 291.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 566.508 ; gain = 291.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 566.508 ; gain = 291.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 566.508 ; gain = 291.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     2|
+|3     |LUT3 |     1|
+|4     |LUT4 |     3|
+|5     |FDRE |     2|
+|6     |LD   |     3|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------+----------+------+
+|      |Instance    |Module    |Cells |
++------+------------+----------+------+
+|1     |top         |          |    12|
+|2     |  uut       |part2_HW4 |    12|
+|3     |    Divison |div       |     7|
++------+------------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 566.508 ; gain = 291.910
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 289 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 566.508 ; gain = 291.910
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 566.508 ; gain = 291.910
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  LD => LDCE: 3 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 136 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:34 . Memory (MB): peak = 669.891 ; gain = 407.867
+INFO: [Common 17-1381] The checkpoint 'C:/Users/aldhubaiban/AppData/Local/Temp/Temp1_HW 3 Aldhubaiban.zip/HW 3 Aldhubaiban/HW4_COUNTER/HW4_COUNTER.runs/synth_1/testbench.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file testbench_utilization_synth.rpt -pb testbench_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 669.891 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 14 05:21:45 2019...
